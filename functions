@@ -1,0 +1,32 @@
+import numpy as np
+def expo(x):
+    return np.exp(x)
+
+def show_expo(start=0,end=10):
+    x=np.linspace(start,end,dtyoe=int)
+    for i in x:
+        print(expo(i))
+
+def main ():
+        show_expo(5,10)
+
+        show_expo()
+
+        if ( len(sys.argv) > 1 ) :
+             
+             user_end = int(sys.argv[1])
+
+             show_expo(end = user_end)
+    
+if __name__ == "__main__":
+    main()
+    # This is a comment
+    # This is another comment
+    # This is a third comment
+    # This is a fourth comment
+    # This is a fifth comment
+    # This is a sixth comment
+    # This is a seventh comment
+    # This is an eighth comment
+    # This is a ninth comment
+    # This is a tenth comment

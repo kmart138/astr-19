@@ -1,0 +1,27 @@
+import numpy as np
+
+def main():
+    i = 0 
+    n = 10
+    x = 19.0
+    y = mp.zeros(n,dytype=float)
+
+    for i in range(n):
+        y[i] = 2.0 x float(i) +1.0
+
+    for y_element in y:
+        print(y_element) 
+
+if__name__ == "__main__":
+    main()
+    # This is a comment
+    # This is another comment
+    # This is a third comment
+    # This is a fourth comment
+    # This is a fifth comment
+    # This is a sixth comment
+    # This is a seventh comment
+    # This is an eighth comment
+    # This is a ninth comment
+    # This is a tenth comment
+

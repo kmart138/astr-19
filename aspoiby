@@ -1,0 +1,20 @@
+s = "astr 19"
+t = "is"
+u = "awesome"
+
+fstring = f" {s} {t} {u}"
+print(fstring)
+
+print(f"left-justified: s: {s:<12}.")
+print(f"right-justified: t: {t:>12}.")
+print(f"centered: u: {u:^12}.") 
+
+i = 76215
+print(f"{i}")
+print(f"{i:12d}")
+print(f"{i:112d}")
+
+x = 762.15
+print(f"{x}")
+print(f"{x:9.8f}")
+print(f"{x:9.8e}")

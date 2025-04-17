@@ -1,0 +1,15 @@
+a = "some text" # a is a string
+
+try:
+    print (a)
+
+except:
+    print("a is not defined")
+
+try:
+    print (a+1)
+
+except NameError:
+    print("a is not defined")
+except:
+    print("An error occurred")
